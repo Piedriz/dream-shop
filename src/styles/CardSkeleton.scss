@@ -1,0 +1,30 @@
+.skeleton-container {
+    display: flex;
+    flex-direction: column;
+}
+.bottom-skeleton{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 45px;
+}
+.top-skeleton{
+    height: 200px;
+}
+.price-skeleton{
+    align-self: center;
+    width: 40%;
+}
+.button-skeleton{
+    width: 20%;
+}
+
+@media (max-width: 640px) {
+    .top-skeleton{
+        height: 120px;
+    }
+    .button-skeleton{
+        width: 30%;
+    }
+}
